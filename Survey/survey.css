@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  padding: 30px 0;
+  font-family: 'League Gothic', sans-serif;
+  display: block;
+  align-items: left;
+  margin-left: 20px;
+}
+.navbar ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+.navbar li {
+  margin: 6px;
+  list-style: none;
+}
+a:visited { color:#559613}
+body{
+  background-color: #000000;
+  color: #7FFF00;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.0;
+  margin: 0;
+}
+h1{
+  font-weight: 100;
+  line-height: 1.1;
+}
+p{
+  font-size: 1.12rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+label{
+  align-items: center;
+  display: flex;
+  font-size: 1.12rem;
+  margin-bottom: 0.5rem;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+button {
+  border: none;
+}
+.container {
+  margin: 3.125rem auto 0 auto;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .container{
+    max-width:720px;
+  }
+}
+.header{
+  margin-bottom: 1.875rem;
+  padding: 0 0.625rem;
+}
+.description {
+  font-style: italic;
+  font-weight: 200;
+}
+.clue {
+    color: #FFFFFF;
+    font-size: 0.625rem;
+    margin-left: 0.25rem;
+}
+.text-center {
+  text-align: center;
+}
+form {
+  background: #000000;
+  border-radius: 0.15rem;
+  padding: 2.5rem 0.5rem;
+}
+@media (min-width: 450px) {
+  form {
+    padding: 1.5rem;
+  }
+}
+.form-group {
+  margin: 0 auto 1.0rem auto;
+  padding: 0.15rem;
+}
+.form-control {
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  color: #000000;
+  display: block;
+  /*height: 3.275;*/
+  padding: 1.5rem 0.5rem;
+  /*width: 100%;*/
+}
+/* .form-control: focus{
+  border-color: #DC143C
+  outline: 0;
+} */
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 1.5rem;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+}
+.input-textarea {
+  min-height: 110px;
+  padding: 0.525rem;
+  resize: vertical;
+  width: 100%;
+}
+.submit-button {
+  background: #7FFF00;
+  display: block;
+  padding: 0.25;
+  width: 100%;
+}

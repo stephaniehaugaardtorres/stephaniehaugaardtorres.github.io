@@ -1,0 +1,130 @@
+body {
+    min-width: 290px;
+    color:#000000;
+    background-color: #C0C0C0;
+    font-family: 'Quicksand';
+    line-height: 1.5;
+  }
+  
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 1px;
+    left: 1px;
+    width: 1px;
+    height: 100%;
+    border-right: transparent;
+    border-left: transparent;
+    border-color: #000000; 
+  }
+  
+  header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+  }
+  
+  #main-doc header {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  #navbar ul {
+    height: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #navbar li {
+    border-top: 2px solid;
+    list-style: none;
+    position: relative;
+    width: 50%; 
+  }
+  
+  #navbar a {
+    display: flex;
+    padding: 5px 5px;
+    color: #0000FF;
+    text-decoration: none;
+    cursor: pointer; 
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section article {
+    color: #000000;
+    margin: 20px;
+    font-size: 1em;
+  }
+  
+  section li {
+    margin: 15px 10px 10px 20px;
+  }
+  
+  #Reference {
+    color: #000000;
+    margin: 30px;
+  }
+  
+  code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #C0C0C0;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width:815px) {
+  
+    #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
+  
+    #navbar {
+      background-color: #C0C0C0;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 275;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 270px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -20px;
+      width: 100%;
+      padding: 15px;
+      padding-left: 10px;
+      padding-right: 45px;
+      min-width: 233px;
+    }
+  }

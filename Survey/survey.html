@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="survey.css">
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+  </style>
+  <body>
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href="../ResponsivePortfolio01/WebProjectsPage01.html" class="menu-btn">Home</a></li>
+      </ul>
+    </nav>
+    <div class= "container">
+      <header class="header">
+        <h1 id="title" class="text-center">The Art of Programing Survey</h1>
+        <p id="description" class="description text-center">Thank you for answering this survey!</p>
+       </header>
+       <form id="survey-form">
+         <div class="form-group">
+           <label id="name-label" for="name">Name</label>
+           <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enteryour name"
+              required
+            /> 
+         </div>
+         <div class="form-group">
+           <label id="email-label" for="email">Email</label>
+           <input
+              type="email"
+              name="email"
+              id="email"
+              class="for-control"
+              placeholder="Enter your Email"
+              required
+             />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for "number">Age<span class="clue">(optional)</span></label>
+            <input
+                type="number"
+                name="age"
+                id="number"
+                min="13"
+                max="99"
+                class="form-control"
+                placeholder="Age"
+            />
+          </div>
+          <div class="form-group">
+            <p>Which option best describes your current occupation?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select current role</option>
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="job">Part Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        <div class="form-group">
+          <p>Do you think coding is a useful skill?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="yes"
+              type="radio" 
+              class="input-radio"
+              checked
+              />yes</label>
+          <label>
+            <input
+              name="user-recommend"
+              value="no"
+              type="radio"
+              class="input-radio"
+              />no</label>
+           <label>
+             <input
+                name="user-recommend"
+                value="not sure"
+                type="radio"
+                class="input-radio"
+              />not sure</label>
+          </div>
+          <div class="form-group">
+            <p>If yes which of these websites do you use to learn coding?
+            <span class="clue">(Check the one that best applies)</span></p>
+            <label
+            ><input
+                name="prefer"
+                value="IBM Skills"
+                type="checkbox"
+                class="input-checkbox"/>IBM Skills</label>
+            <label
+            ><input
+                name="prefer"
+                value="freecodecamp.com"
+                type="checkbox"
+                class="input-checkbox"/>freecodecamp.com</label>
+            <label
+            ><input
+                name="prefer"
+                value="MIT OpenCourseWare"
+                type="checkbox"
+                class="input-checkbox"/>MIT OpenCourseWare</label>
+            <label
+            ><input
+                name="prefer"
+                value="Codecademy"
+                type="checkbox"
+                class="input-checkbox"/>Codecademy</label>
+            <label
+            ><input
+                name="prefer"
+                value="other"
+                type="checkbox"
+                class="input-checkbox"/>other</label>
+        </div>
+        <div class="form-group">
+          <p>Did you choose the other option? Write share where you are learning to program in the space below.</p>
+          <textarea
+            id="other"
+            class="input-textarea"
+            name="other"
+            placeholder="Enter your response to the 'other'option here..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" 
+id="submit"          class="submit-button">Submit</button>
+       </div>
+     </form>
+   </div>
+ </body>
+</html>
