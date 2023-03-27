@@ -170,9 +170,9 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     bottom: 10px;
-    left: 30px;
+    left: 50px;
     opacity: 0;
     transition: 1s all ease-in-out;
     z-index: 2;
