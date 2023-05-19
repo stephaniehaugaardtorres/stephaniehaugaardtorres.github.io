@@ -39,10 +39,31 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-.movie {
+.mmmain {
     position: absolute;
-    top: 50px;
+    top: 70px;
     left: 90px;
     width: 90%;
-    height: 90%;
+    height: 60%;
 }
+.movie {
+    position: relative;
+    top: 0px;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+.credits {
+   font-family: 'ubuntu';
+   font-size: 20px;
+   color: white;
+   /* position: relative; */
+   /* top: 50px;
+   bottom: 40px;
+   right: 80px;
+   left: 90px;
+   width: 90%;
+   height: 70%; */
+   text-align: center;
+}
+\
